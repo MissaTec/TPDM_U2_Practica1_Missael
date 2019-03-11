@@ -52,6 +52,7 @@ public class MainConsulta extends AppCompatActivity {
                 Proyectos temp = proyectos[i];
                 datos[i] = temp.getDescripcion()+"\n"+
                         temp.getUbicacion()+"\n"+
+                        temp.getFecha()+"\n"+
                         temp.getPresupuesto();
             }
         }

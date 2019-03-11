@@ -15,7 +15,7 @@ public class Proyectos {
     protected String error;
 
     public Proyectos(Activity activity){
-        base = new BaseDatos(activity,"Archivo",null,1);
+        base = new BaseDatos(activity,"Civil",null,1);
     }
 
     public Proyectos(int id, String descripcion, String ubicacion, String fecha, float presupuesto){
